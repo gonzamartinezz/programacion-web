@@ -1,3 +1,5 @@
+*{border: 1px solid red}
+
 .div1{background-color: rgb(244, 95, 179);}
-h2{font-size: 70px; color: green;}
+.h2{font-size: 50px; color: green; font-family:'Courier New', Courier, monospace; background-color: black;}
 #segunda_foto {width: 200vh;}
