@@ -5,14 +5,27 @@
 .div1{
     background-color: rgb(244, 95, 179);
 }
+
+
+main img {
+    width: 50vw;
+}
+
+#titulo{
+    color: yellow;
+    font-size: 2vw;
+}
+
+#segundo_titulo{
+    color: white;
+    font-size: 1.5vw;
+}
+
 .h2{
-    font-size: 50px;
+    font-size: 2vw;
     color: green;
     font-family:'Courier New', Courier, monospace;
     background-color: black;
-}
-#segunda_foto {
-    width: 200vh;
 }
 
 .flex-container {
@@ -25,9 +38,9 @@
 /* va a afectar todos los div pero todo lo demas no va a estar afectado */
 .flex-container > div {
     background-color: yellow;
-    margin: 10px;
-    padding: 49px;
-    font-size: 30px;
+    margin: 5vw;
+    padding: 8vh;
+    font-size: 3vw;
 }
 
 @media screen and (max-width: 992px) and (min-width: 600px){
