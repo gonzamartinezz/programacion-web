@@ -2,7 +2,10 @@
     border: 1px solid red
 }
 
-.navbar {
-    background-color: rgb(50, 50, 226) !important;
+
+#logo {
+    display: flex;
+    width: 10%;
+    height: auto;
 }
 
