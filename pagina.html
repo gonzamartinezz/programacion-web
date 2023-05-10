@@ -11,34 +11,44 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-brand">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="/imagen/Logo.jpg" id="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><h1 class="nombre"><img src="/imagen/Logo.jpg" class="logo">Pasión Goleadora</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Home</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Fútbol Argentino</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Europa</a>
+                <a class="nav-link active" href="#">Selección Argentina</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Selecciones</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Otras</a>
+                <a class="nav-link active" href="#">Fútbol europeo</a>
               </li>
             </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
-</nav>
+<div class="fondo">
+  <img src="imagen/seleccion-argentina-con-trofeo-c.png" class="backfoto">
+</div>
+
+
+
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

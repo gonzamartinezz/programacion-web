@@ -1,11 +1,23 @@
-*{
-    border: 1px solid red
-}
-
-
-#logo {
-    display: flex;
-    width: 10%;
+.logo {
+    width: 8vw;
     height: auto;
 }
 
+.container-fluid {
+    background-color: white;
+}
+
+.nombre {
+    font-size: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    position: static !important;
+}
+
+.backfoto {
+    width: 100%;
+    max-height: 725px;
+    
+}
