@@ -4,20 +4,36 @@
 }
 
 .container-fluid {
-    background-color: white;
+    background-color: #11111f;
 }
 
 .nombre {
     font-size: 2vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c7c9c7;
 }
 
 .navbar {
     position: static !important;
 }
 
-.backfoto {
-    width: 100%;
-    max-height: 725px;
-    
+.high-res-picture___3SJ41 {
+    width: 5vw;
+    height: auto;
+}
+
+.lupa {
+    width: 75%;
+    height: auto;
+}
+
+.boton-conocer {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 2vw;
+    border: 2px solid black;
+    padding: 1vw 4vh;
+    border-radius: 50px;
+    margin-top: 20px;
 }
