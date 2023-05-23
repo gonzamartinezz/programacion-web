@@ -17,6 +17,14 @@
     position: static !important;
 }
 
+.navbar-toggler {
+    background-color: #c7c9c7 !important;
+}
+
+.navbar-toggler-icon {
+    background-size: 50%;
+}
+
 .high-res-picture___3SJ41 {
     width: 5vw;
     height: auto;
@@ -27,13 +35,60 @@
     height: auto;
 }
 
-.boton-conocer {
-    text-decoration: none;
-    display: inline-block;
-    color: black;
-    font-size: 2vw;
-    border: 2px solid black;
-    padding: 1vw 4vh;
-    border-radius: 50px;
-    margin-top: 20px;
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    background-color: black;
 }
+.navbar {
+    --bs-navbar-padding-y: 0!important;
+}
+
+.container-fluid{
+    background-color: #11111f !important;
+}
+.offcanvas-title{
+    font-size: 3vw!important;
+}
+
+
+
+.dropdown-item{
+    background-color:rgb(33, 31, 31)!important;
+} 
+
+.dropdown-menu-dark{
+    --bs-dropdown-bg:rgb(33, 31, 31)!important;
+}
+
+.dropdown-img {
+    width: 4vw;
+    height: auto;
+}
+
+.nav-link {
+    font-size: 1.5vw !important;
+}
+
+.carousel-caption {
+    top: 40%;
+  }
+
+.carousel-button {
+    background-color: transparent;
+    border: 3px solid black;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 50px;
+    padding: 1.5vw 4vw;
+    font-size: 2vw;
+  }
+
+.carousel-button:hover {
+    background-color: black;
+    color: white;
+  }
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+  }
+
