@@ -68,3 +68,8 @@ main img {
         font-family:cursive;
     }
 }
+
+.imagen {
+    width: 20vw;
+    height: auto;
+}
