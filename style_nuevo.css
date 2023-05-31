@@ -3,9 +3,12 @@
     height: auto;
 }
 
-.container-fluid {
-    background-color: #11111f;
+.row {
+    background-color: white;
 }
+
+
+
 
 .nombre {
     font-size: 2vw;
@@ -15,10 +18,6 @@
 
 .navbar {
     position: static !important;
-}
-
-.navbar-toggler {
-    background-color: #c7c9c7 !important;
 }
 
 .navbar-toggler-icon {
@@ -35,28 +34,29 @@
     height: auto;
 }
 
-.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
-    background-color: black;
-}
+
 .navbar {
     --bs-navbar-padding-y: 0!important;
 }
 
-.container-fluid{
-    background-color: #11111f !important;
-}
 .offcanvas-title{
     font-size: 3vw!important;
 }
 
+.offcanvas-header {
+    background-color: #9b9b9b;
+}
 
+.offcanvas-body {
+    background-color: #e7e7e7;
+}
 
-.dropdown-item{
-    background-color:rgb(33, 31, 31)!important;
-} 
+.dropdown-menu {
+    --bs-dropdown-padding-y: 0rem !important; 
+}
 
-.dropdown-menu-dark{
-    --bs-dropdown-bg:rgb(33, 31, 31)!important;
+.divisiones {
+    background-color: #9b9b9b;
 }
 
 .dropdown-img {
@@ -92,3 +92,21 @@
     display: none;
   }
 
+.pregunta {
+    font-family: inherit;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-family: "Montserrat", Sans-serif;
+    margin-bottom: 100px;
+}
+
+.marketing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

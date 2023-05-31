@@ -50,26 +50,65 @@ main img {
     }
   }
 
-  @media screen and (max-width: 992px) {
-    header {
-      display:none;
-    }
+@media screen and (max-width: 992px) {
+header {
+    display:none;
+}
 }
 
-  @media screen and (max-width: 600px) {
-    body {
-        background-color: olive;
-        color: white;
-    }
-    main marquee {
-        display: none;
-    }
-    main h6 {
-        font-family:cursive;
-    }
+@media screen and (max-width: 600px) {
+body {
+    background-color: olive;
+    color: white;
+}
+main marquee {
+    display: none;
+}
+main h6 {
+    font-family:cursive;
+}
 }
 
 .imagen {
     width: 20vw;
     height: auto;
 }
+
+
+  /* CSS personalizado */
+  .navbar {
+    padding: 1rem;
+  }
+
+  .searchbox {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .searchbox input {
+    width: 100%;
+  }
+
+  .user-access a {
+    font-size: 0.8rem;
+    margin-right: 1rem;
+  }
+
+  .icon-cart {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+
+  .nav {
+    margin-top: 1rem;
+  }
+
+  .nav-item {
+    margin-right: 1rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    color: #333;
+  }
