@@ -3,21 +3,9 @@
     height: auto;
 }
 
-.row {
-    background-color: white;
-}
-
-
-
-
-.nombre {
-    font-size: 2vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #c7c9c7;
-}
-
 .navbar {
     position: static !important;
+    --bs-navbar-padding-y: 0!important;
 }
 
 .navbar-toggler-icon {
@@ -32,11 +20,6 @@
 .lupa {
     width: 75%;
     height: auto;
-}
-
-
-.navbar {
-    --bs-navbar-padding-y: 0!important;
 }
 
 .offcanvas-title{
@@ -96,6 +79,7 @@
     font-family: inherit;
     margin-top: 100px;
     margin-bottom: 20px;
+    font-weight: bold !important;
 }
 
 .lead {
@@ -110,3 +94,23 @@
     align-items: center;
     text-align: center;
   }
+
+.row {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-camisetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
