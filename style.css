@@ -1,114 +1,104 @@
-*{
-    border: 1px solid red
-}
-
-.div1{
-    background-color: rgb(244, 95, 179);
-}
-
-
-main img {
-    width: 50vw;
-}
-
-#titulo{
-    color: yellow;
-    font-size: 2vw;
-}
-
-#segundo_titulo{
-    color: white;
-    font-size: 1.5vw;
-}
-
-.h2{
-    font-size: 2vw;
-    color: green;
-    font-family:'Courier New', Courier, monospace;
-    background-color: black;
-}
-
-.flex-container {
-    display: flex;
-    background-color: blue;
-    flex-flow: wrap;
-    justify-content: space-evenly;
-}
-
-/* va a afectar todos los div pero todo lo demas no va a estar afectado */
-.flex-container > div {
-    background-color: yellow;
-    margin: 5vw;
-    padding: 8vh;
-    font-size: 3vw;
-}
-
-@media screen and (max-width: 992px) and (min-width: 600px){
-    body {
-      background-color: blue;
-      color: white;
-    }
-  }
-
-@media screen and (max-width: 992px) {
-header {
-    display:none;
-}
-}
-
-@media screen and (max-width: 600px) {
-body {
-    background-color: olive;
-    color: white;
-}
-main marquee {
-    display: none;
-}
-main h6 {
-    font-family:cursive;
-}
-}
-
-.imagen {
-    width: 20vw;
+.logo {
+    width: 8vw;
     height: auto;
 }
 
+.navbar {
+    position: static !important;
+    --bs-navbar-padding-y: 0!important;
+}
 
-  /* CSS personalizado */
-  .navbar {
-    padding: 1rem;
+.navbar-toggler-icon {
+    background-size: 50%;
+}
+
+.high-res-picture___3SJ41 {
+    width: 5vw;
+    height: auto;
+}
+
+.lupa {
+    width: 75%;
+    height: auto;
+}
+
+.offcanvas-title{
+    font-size: 3vw!important;
+    color: white;
+}
+
+.offcanvas-header {
+    background-color: #000000;
+}
+
+.offcanvas-body {
+    background-color: #e7e7e7;
+}
+
+.dropdown-menu {
+    --bs-dropdown-padding-y: 0rem !important; 
+}
+
+.nav-link {
+    font-size: 1.5vw !important;
+}
+
+.carousel-caption {
+    top: 40%;
   }
 
-  .searchbox {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
+.carousel-button {
+    background-color: transparent;
+    border: 3px solid black;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 50px;
+    padding: 1.5vw 4vw;
+    font-size: 2vw;
   }
 
-  .searchbox input {
-    width: 100%;
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
   }
 
-  .user-access a {
-    font-size: 0.8rem;
-    margin-right: 1rem;
+.pregunta {
+    font-family: inherit;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: bold !important;
+}
+
+.lead {
+    font-family: "Montserrat", Sans-serif;
+    margin-bottom: 100px;
+}
+
+.marketing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
-  .icon-cart {
-    font-size: 1.2rem;
-    margin-left: 1rem;
-  }
+.row {
+    margin-bottom: 20px;
+}
 
-  .nav {
-    margin-top: 1rem;
-  }
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-  .nav-item {
-    margin-right: 1rem;
-  }
-
-  .nav-link {
-    font-size: 1rem;
-    color: #333;
-  }
+.titulo-camisetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
