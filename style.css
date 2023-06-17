@@ -23,7 +23,7 @@
 }
 
 .offcanvas-title{
-    font-size: 3vw!important;
+    font-size: 40px!important;
     color: white;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .nav-link {
-    font-size: 1.5vw !important;
+    font-size: 20px !important;
 }
 
 .carousel-caption {
@@ -57,7 +57,7 @@
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 50px;
     padding: 1.5vw 4vw;
-    font-size: 25px
+    font-size: 20px
     
   }
 
