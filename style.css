@@ -54,7 +54,7 @@
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 50px;
     padding: 1.5vw 4vw;
-    font-size: 2vw;
+    font-size: 25px;
   }
 
 .carousel-button:hover {
@@ -101,10 +101,6 @@
     align-items: center;
     text-align: center;
     padding: 40px;
-}
-
-.marketing {
-    border: solid 2px red;
 }
 
 .bi-instagram {
