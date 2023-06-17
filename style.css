@@ -107,7 +107,11 @@
     padding: 40px;
 }
 
-.bi-instagram {
+.bi {
     width: 50px;
     height: 50px;
+}
+
+.ms-3 {
+    padding: 20px;
 }
