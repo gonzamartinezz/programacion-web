@@ -21,6 +21,7 @@
             <h2>Carrito</h2>
           </div>
           <!--FIN LOGO Y CARRITO-->
+
           <!--SELECCIONAR PRODUCTOS-->
           <div class="row g-5">
             <div class="col-md-5 col-lg-4 order-md-last">
@@ -30,7 +31,7 @@
 
               <ul class="list-group mb-3">
                 <li class="list-group-item d-flex lh-sm">
-                  <input type="checkbox">
+                  <input type="checkbox" onchange="actualizarTotal(this)" data-precio="1500">
                   <div>
                     <h6 class="my-0 cosas">Boca Juniors</h6>
                     <small class="text-body-secondary cosas">Camiseta titular</small>
@@ -38,7 +39,7 @@
                   <span class="text-body-secondary otras-cosas">$1.500</span>
                 </li>
                 <li class="list-group-item d-flex lh-sm">
-                    <input type="checkbox">
+                    <input type="checkbox" onchange="actualizarTotal(this)" data-precio="1500">
                     <div>
                       <h6 class="my-0 cosas">Selección Argentina</h6>
                       <small class="text-body-secondary cosas">Camiseta titular</small>
@@ -46,7 +47,7 @@
                     <span class="text-body-secondary otras-cosas">$1.500</span>
                 </li>
                 <li class="list-group-item d-flex lh-sm">
-                <input type="checkbox">
+                <input type="checkbox" onchange="actualizarTotal(this)" data-precio="1000">
                 <div>
                     <h6 class="my-0 cosas">River Plate</h6>
                     <small class="text-body-secondary cosas">Camiseta titular</small>
@@ -54,7 +55,7 @@
                 <span class="text-body-secondary otras-cosas">$1.000</span>
                 </li>
                 <li class="list-group-item d-flex lh-sm">
-                <input type="checkbox">
+                <input type="checkbox" onchange="actualizarTotal(this)" data-precio="1000">
                 <div>
                     <h6 class="my-0 cosas">Independiente</h6>
                     <small class="text-body-secondary cosas">Camiseta titular</small>
@@ -62,7 +63,7 @@
                 <span class="text-body-secondary otras-cosas">$1.000</span>
                 </li>
                 <li class="list-group-item d-flex lh-sm">
-                <input type="checkbox">
+                <input type="checkbox" onchange="actualizarTotal(this)" data-precio="1000">
                 <div>
                     <h6 class="my-0 cosas">San Lorenzo</h6>
                     <small class="text-body-secondary cosas">Camiseta titular</small>
@@ -70,7 +71,7 @@
                 <span class="text-body-secondary otras-cosas">$1.000</span>
                 </li>
                 <li class="list-group-item d-flex lh-sm">
-                    <input type="checkbox">
+                    <input type="checkbox" onchange="actualizarTotal(this)" data-precio="1000">
                     <div>
                       <h6 class="my-0 cosas">Racing</h6>
                       <small class="text-body-secondary cosas">Camiseta titular</small>
@@ -78,15 +79,15 @@
                     <span class="text-body-secondary otras-cosas">$1.000</span>
                 </li>
                 <li class="list-group-item d-flex lh-sm">
-                    <input type="checkbox">
+                    <input type="checkbox" onchange="actualizarTotal(this)" data-precio="1000">
                     <div>
                       <h6 class="my-0 cosas">Estudiantes</h6>
                       <small class="text-body-secondary cosas">Camiseta titular</small>
                     </div>
                     <span class="text-body-secondary otras-cosas">$1.000</span>
                 </li>
-                  <li class="list-group-item d-flex lh-sm">
-                    <input type="checkbox">
+                <li class="list-group-item d-flex lh-sm">
+                    <input type="checkbox" onchange="actualizarTotal(this)" data-precio="1000">
                     <div>
                       <h6 class="my-0 cosas">Velez</h6>
                       <small class="text-body-secondary cosas">Camiseta titular</small>
@@ -94,7 +95,7 @@
                     <span class="text-body-secondary otras-cosas">$1.000</span>
                 </li>
                 <li class="list-group-item d-flex lh-sm">
-                    <input type="checkbox">
+                    <input type="checkbox" onchange="actualizarTotal(this)" data-precio="1000">
                     <div>
                       <h6 class="my-0 cosas">Newell's</h6>
                       <small class="text-body-secondary cosas">Camiseta titular</small>
@@ -102,7 +103,7 @@
                     <span class="text-body-secondary otras-cosas">$1.000</span>
                 </li>
                 <li class="list-group-item d-flex lh-sm">
-                    <input type="checkbox">
+                    <input type="checkbox" onchange="actualizarTotal(this)" data-precio="1000">
                     <div>
                       <h6 class="my-0 cosas">Rosario Central</h6>
                       <small class="text-body-secondary cosas">Camiseta titular</small>
@@ -111,12 +112,13 @@
                 </li>
 
                 <li class="list-group-item d-flex justify-content-between">
-                  <span>Total</span>
-                  <strong>$20</strong>
+                  <span>Total (en pesos):</span>
+                  <span id="total">0</span>
                 </li>
               </ul>
             </div>
             <!--FIN SELECCIONAR PRODUCTOS-->
+
             <!--TU INFORMACION-->
             <div class="col-md-7 col-lg-8">
               <h4 class="mb-3">Tu información</h4>
@@ -183,11 +185,12 @@
             <!--FIN TU INFORMACION -->
           </div>
         </main>
-      
-        <footer class="my-5 pt-5 text-body-secondary text-center text-small">
+        <!--INFORMACIÓN FINAL-->
+        <footer class="my-5 text-body-secondary text-center text-small">
           <hr class="my-4">
           <p class="mb-1">© 2023 Pasión Goleadora, Inc</p>
         </footer>
+        <!--FIN INFORMACIÓN FINAL-->
       </div>
     <footer>
         
