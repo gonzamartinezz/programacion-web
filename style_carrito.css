@@ -9,6 +9,10 @@
     font-family:'Times New Roman', Times, serif;
 }
 
+.link-boton {
+    text-decoration: none;
+}
+
 .boton:hover {
     background-color: rgb(108, 108, 108);
     border: transparent;
