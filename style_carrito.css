@@ -13,3 +13,12 @@
     background-color: rgb(108, 108, 108);
     border: transparent;
 }
+
+.Nombre {
+    width: 100%;
+}
+
+.d-block {
+    width: 90px;
+    height: auto;
+}
