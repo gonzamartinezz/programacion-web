@@ -28,7 +28,7 @@
 }
 
 .offcanvas-header {
-    background-color: #000000;
+    background-color: #5a5a5a;
 }
 
 .offcanvas-body {
@@ -114,4 +114,30 @@
 
 .ms-3 {
     padding: 20px;
+}
+
+.carrito {
+    background-color: #0d6efd;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-bottom: 6px;
+    padding-right: 12px;
+}
+
+.carrito:hover {
+    background-color: #0d50b6;
+}
+
+.carrito:active {
+    background-color: #0d3983;
+}
+
+.link-carrito:link {
+    color: white;
+    text-decoration: none;
+}
+.link-carrito:visited {
+    color: white;
+    text-decoration: none;
 }
